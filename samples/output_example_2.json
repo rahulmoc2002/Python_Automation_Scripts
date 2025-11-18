@@ -1,0 +1,17 @@
+{
+  "action": "create",
+  "cloud": "gcp",
+  "resource_type": "vm",
+  "payload": {
+    "name": null,
+    "region": "us-central1",
+    "instance_type": "e2-micro",
+    "project": "demo-01",
+    "tags": {
+      "owner": "unknown",
+      "environment": "dev",
+      "project": "demo-01"
+    }
+  },
+  "warnings": ["name missing"]
+}

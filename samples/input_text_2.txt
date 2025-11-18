@@ -1,0 +1,1 @@
+launch gcp instance e2-micro in us-central1 for project demo-01

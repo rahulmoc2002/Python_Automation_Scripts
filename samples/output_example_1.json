@@ -1,0 +1,16 @@
+{
+  "action": "create",
+  "cloud": "aws",
+  "resource_type": "vm",
+  "payload": {
+    "name": null,
+    "region": "us-east-1",
+    "instance_type": "t2.micro",
+    "tags": {
+      "owner": "unknown",
+      "environment": "dev",
+      "project": "poc"
+    }
+  },
+  "warnings": ["name missing"]
+}

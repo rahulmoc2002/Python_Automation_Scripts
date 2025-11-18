@@ -1,0 +1,16 @@
+{
+  "action": "delete",
+  "cloud": "azure",
+  "resource_type": "vm",
+  "payload": {
+    "name": "test-vm",
+    "region": "eastus",
+    "instance_type": null,
+    "tags": {
+      "owner": "unknown",
+      "environment": "dev",
+      "project": "poc"
+    }
+  },
+  "warnings": ["instance_type missing"]
+}

@@ -1,0 +1,1 @@
+delete the azure virtual machine named test-vm in eastus
